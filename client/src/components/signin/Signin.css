@@ -1,0 +1,131 @@
+.login {
+  height: 100vh;
+  width: 100%;
+  background-color: black !important;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.heading {
+  margin-top: 20px;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 1%;
+  /* background-color: pink; */
+}
+.book {
+  height: 5vh;
+  width: 26%;
+  background-color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black !important;
+}
+.cab {
+  height: 5vh;
+  width: 28%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white !important;
+  border-width: 1px; /* Corrected property name */
+  border-style: solid; /* Corrected property name */
+  border-color: white !important;
+}
+.intro {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  /* background-color: blue; */
+}
+.introtext {
+  height: 8vh;
+  width: 80%;
+margin-left: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: aliceblue;
+  padding-left: 1%;
+  /* background-color: green; */
+  font-size: 40px;
+  font-weight: 300;
+}
+.des {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+}
+.destext {
+  height: 8vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  padding: 1.5%;
+  /* background-color: green; */
+  font-size: 23px;
+  font-weight: 700;
+}
+.form {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.containerinput {
+  height: 5vh;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.needsignin {
+  height: 3vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 50px;
+}
+.button{
+  height: 6vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.lbutton{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width:25%;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 20px;
+}

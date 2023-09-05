@@ -1,0 +1,147 @@
+.login {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.heading {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 1%;
+  /* background-color: pink; */
+}
+.book {
+  height: 5vh;
+  width: 26%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cab {
+  height: 5vh;
+  width: 28%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-width: 1px; /* Corrected property name */
+  border-style: solid; /* Corrected property name */
+  border-color: white;
+}
+.intro {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+}
+.introtext {
+  height: 8vh;
+  width: 80%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: aliceblue;
+  padding-left: 1%;
+  /* background-color: green; */
+  font-size: 40px;
+  font-weight: 300;
+}
+.des {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+}
+.destext {
+  height: 8vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  padding: 1.5%;
+  /* background-color: green; */
+  font-size: 23px;
+  font-weight: 700;
+}
+.form {
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.containerinput {
+  height: 5vh;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.needsignup {
+  height: 3vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-top:90px;
+}
+.circle {
+  height: 9vh;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+  justify-content: flex-end;
+  padding-right: 30px;
+  margin-top: 60%;
+}
+.circlebutton {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: center;
+  border-radius: 90%;
+}
+.button{
+  height: 6vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.lbutton{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width:25%;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 20px;
+}
